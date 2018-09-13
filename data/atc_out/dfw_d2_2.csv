@@ -1,0 +1,139 @@
+from,to,text,time_start,time_end,comment
+DR2-1,AAL963 ,american nine sixty three fly heading one four zero contact fort worth center one three three point three,9.02,13.37,
+DR2-1,AAL963 ,good night,19.95,20.70,
+MID270,DR2-1 ,departure good evening midway two seventy three forty five out of two for one zero thousand,50.69,54.31,
+DR2-1,MID270 ,okay may verify that was midway two seventy,57.62,60.17,
+MID270,DR2-1 ,sir midway two seventy good evening three point two for one zero thousand three forty-five on the heading,60.29,64.00,
+DR2-1,MID270 ,thank you sir you're radar contact climb maintain one seven thousand midway two seventy,64.19,67.93,
+MID270,DR2-1 ,cleared to one seven thousand midway two seventy,68.17,70.21,
+DR2-1,AAL212 ,american two twelve heavy maintain one seven thousand contact fort worth center one three four point one five,75.91,80.93,
+AAL212,DR2-1 ,one three four one five ah climbing to one seven thousand american two twelve heavy,81.19,85.10,
+AAL352,DR2-1 ,departure american ah three fifty two ah twenty one hundred for ten,91.98,95.78,
+DR2-1,AAL352 ,american three fifty two contact departure one one eight point five five,96.12,99.78,
+AAL212,DR2-1 ,fort worth center american two twelve heavy's passing ah one zero thousand eight hundred for one seven thousand,104.22,109.28,aircraft is on wrong frequency
+DR2-1,AAL212 ,american two twelve heavy you still on departure sir good day,109.54,112.00,
+AAL212,DR2-1 ,sorry about that,112.13,112.95,
+DR2-1,AAL212 ,no problem talk to you later sir,113.06,114.79,
+DR2-1,MID270 ,midway two seventy expedite to one zero thousand at one zero thousand increase speed three two zero knots greater,144.68,150.26,
+MID270,DR2-1 ,hurry to ten at ten three twenty or better midway two seventy,150.60,153.50,
+DR2-1,MID270 ,midway two seventy turn right to heading zero two zero,160.35,163.14,
+MID270,DR2-1 ,zero two zero midway two seventy,164.26,165.64,
+AAL458,DR2-1 ,departure american four fifty eight out of two point five for ten,181.23,184.32,
+DR2-1,AAL458 ,american four fifty eight departure radar contact climb maintain one seven thousand,188.38,191.77,
+AAL458,DR2-1 ,american four fifty eight one seven thousand,192.50,194.64,
+DR2-1,AAL458 ,american four fifty eight turn right to heading zero two zero,244.36,246.78,
+AAL458,DR2-1 ,right zero two zero american four fifty eight,247.59,249.93,
+MDW270,DR2-1 ,midway two seventy's out of ten accelerating to two five three twenty,267.52,270.35,
+DR2-1,MID270 ,midway two seventy thank you contact fort worth center one three four point one five good day,270.77,275.80,
+MID270,DR2-1 ,thirty four fifteen thanks for your help,276.09,277.48,
+DR2-1,N439WW ,westwind four three nine whiskey whiskey regional departure radar contact,301.21,304.50,transmission to dr one aircraft
+COA1952,DR2-1 ,ah departure continental nineteen fifty two two for ten,306.46,309.01,
+DR2-1,COA1952 ,continental nineteen fifty two regional departure radar contact,309.15,312.08,
+DR2-1,N439WW ,westwind nine whiskey whiskey climb and maintain one zero thousand turn left heading two niner zero,325.68,330.45,transmission to dr one aircraft
+DR2-1,COA1952 ,continental nineteen fifty two maintain niner thousand speed two five zero,334.03,338.31,
+COA1952,DR2-1 ,nine thousand two fifty continental nineteen fifty two,338.92,341.24,
+DR2-1,N439WW ,westwind nine whiskey whiskey at one zero thousand whats the best speed you can give me,341.39,344.70,transmission to dr one aircraft
+DR2-1,N439WW ,all right sir that'll be fine sir at ten thousand increase speed to three zero zero knots,347.36,351.43,transmission to dr one aircraft
+DR2-1,AAL458 ,american four fifty eight contact fort worth center one three four point one five good day,355.67,359.69,
+AAL458,DR2-1 ,one three four one five american four fifty eight good night,360.58,362.91,
+DR2-1,AAL458 ,night sir,363.58,364.32,
+DR2-1,N439WW ,westwind four three nine whiskey whiskey traffic eleven o'clock six miles will pass off your left a southwest seven thirty seven at one one thousand,383.32,388.95,transmission to dr one aircraft
+DR2-1,N439WW ,westwind nine whiskey whiskey turn left heading two six zero intercept the d f w two seven four radial,405.88,410.28,transmission to dr one aircraft
+DR2-1,N439WW ,roger i need you to increase speed to three zero zero knots please,414.46,416.95,transmission to dr one aircraft
+DR2-1,COA1952 ,continental nineteen fifty two turn left heading two seven zero,419.15,421.98,
+COA1952,DR2-1 ,left turn two seven zero continental nineteen fifty two,422.30,424.47,
+DR2-1,N439WW ,westwind nine whiskey whiskey expedite climb through one two thousand maintain one seven thousand,425.94,430.63,transmission to dr one aircraft
+DR2-1,COA1952 ,continental nineteen fifty two turn left heading two five zero intercept d f w two seven four radial,440.27,444.25,
+COA1952,DR2-1 ,two fifty to intercept the radial continental nineteen fifty two,444.76,447.24,
+DR2-1,COA1952 ,and continental nineteen fifty eight climb and maintain one zero thousand resume normal speed,455.30,459.93,
+COA1952,DR2-1 ,one zero thousand normal speed continental nineteen fifty two,460.56,463.05,
+DR2-2,N439WW ,westwind nine whiskey whiskey say your planned airspeed in the climb to seventeen,488.00,491.01,transmission to dr one aircraft
+DR2-2,N439WW ,roger if you would ah maintain three zero zero knots or greater traffic behind,493.48,497.36,transmission to dr one aircraft
+DR2-2,COA1952 ,continental nineteen fifty two turn left heading two three zero intercept the d f w two seven four radial do not exceed speed three zero zero there is arrival traffic one o'clock seven miles southeast bound united jet at one one thousand,498.55,510.09,
+COA1952,DR2-2 ,left turn ah two thirty ah don' t exceed three hundred we have united in sight continental nineteen fifty two,510.80,515.14,
+DR2-2,COA1952 ,roger,515.23,515.73,
+DR2-2,N439WW ,westwind nine whiskey whiskey contact fort worth center one two seven point zero thank you for the speed,517.64,521.74,transmission to dr one aircraft
+DR2-2,COA1952 ,continental nineteen fifty two about seven miles behind the united jet is a delta ah let me see what he is boeing seven sixty seven heavy jet also at one one thousand you maintain one zero thousand,523.52,533.85,
+COA1952,DR2-2 ,continental nineteen fifty two roger we got them both in sight,534.54,537.03,
+DR2-2,COA1952 ,continental nineteen fifty two resume normal speed,558.25,560.69,
+COA1952,DR2-2 ,continental nineteen fifty two wilco,561.14,562.83,
+DR2-2,COA1952 ,and nineteen fifty two we'll shallow off your intercept now turn right heading two five five intercept the d f w two seven four radial center plans to step you up below the westwind ahead of you,563.09,570.93,
+COA1952,DR2-2 ,o k ah right turn two fifty five continental nineteen fifty two,571.51,574.63,
+DR2-2,COA1952 ,continental nineteen fifty two arrival traffic no longer a factor climb and maintain one six thousand,607.40,611.71,
+COA1952,DR2-2 ,one six thousand continental nineteen fifty two,612.05,614.03,
+DR2-2,COA1952 ,continental nineteen fifty two the westwind' s leaving flight level one eight zero in the climb now climb and maintain one seven thousand contact fort worth center one two seven point zero good day,621.99,630.49,
+COA1952,DR2-2 ,seventeen thousand twenty seven zero have a good one,630.79,632.74,
+DR2-1,N639J ,westwind six three nine juliet regional departure climb maintain one seven thousand,1026.56,1030.75,transmission to dr one aircraft
+DR2-1,N639J ,westwind six three niner juliet contact fort worth center one three four point one five,1144.13,1147.90,transmission to dr one aircraft
+DR2-1,AAL58 ,american fifty eight heavy contact fort worth center one three four point one five,1233.21,1236.88,transmission to dr one aircraft
+DR2-1,SWA164 ,southwest one sixty four departure turn left heading two four zero intercept d f w two six two radial,1401.98,1406.49,transmission to dr one aircraft
+DR2-1,AAL491 ,american four ninety one heavy regional departure radar contact,1506.80,1510.20,transmission to dr one aircraft
+DR2-1,SWA164 ,southwest one sixty four contact fort worth center on one two seven point zero,1517.02,1521.67,transmission to dr one aircraft
+DR2-1,SWA164 ,good night,1523.76,1524.19,transmission to dr one aircraft
+DR2-1,SWA284 ,southwest two eighty four ah departure roger climb maintain one seven thousand,1531.71,1535.70,transmission to dr one aircraft
+DR2-1,AAL491 ,american four ninety one heavy turn left heading two six zero,1566.58,1570.21,transmission to dr one aircraft
+DR2-1,SWA284 ,southwest two eighty four fly heading three four zero contact fort worth center one three four point one five,1586.69,1591.30,transmission to dr one aircraft
+DR2-1,SWA284 ,one thirty four fifteen,1596.97,1598.92,transmission to dr one aircraft
+DR2-1,SWA284 ,good night,1601.04,1602.02,transmission to dr one aircraft
+DR2-1,AAL491 ,american four ninety one heavy fly heading a two seven zero traffic at twelve to one o'clock eight miles southeast bound at one one thousand,1642.10,1649.31,transmission to dr one aircraft
+DR2-1,AAL491 ,american four ninety one heavy turn left heading two three zero join the d f w two six two radial,1704.04,1708.41,transmission to dr one aircraft
+DR2-1,AAL491 ,american four ninety one heavy climb maintain one seven thousand contact fort worth center one two seven point zero,1749.35,1755.52,transmission to dr one aircraft
+DR2-1,SWA926 ,southwest nine twenty six regional departure radar contact,2141.87,2145.60,transmission to dr one aircraft
+DR2-1,SWA926 ,southwest nine twenty six climb maintain eight thousand and turn right to heading zero six correction zero eight zero intercept the d f w zero six seven radial resume sid,2181.98,2190.92,transmission to dr one aircraft
+DR2-1,SWA926 ,southwest nine twenty six roger climb and maintain eight thousand turn right heading zero eight zero intercept the d f w zero six seven radial resume the sid and tighten turn please,2195.85,2202.94,transmission to dr one aircraft
+DR2-1,SWA169 ,southwest one six nine regional departure radar contact,2216.99,2219.86,transmission to dr one aircraft
+DR2-1,SWA169 ,southwest one six nine climb and maintain eight thousand turn right a tight turn heading one three zero,2258.65,2264.23,transmission to dr one aircraft
+DR2-1,SWA926 ,southwest nine twenty six climb and maintain one seven thousand,2307.66,2310.85,transmission to dr one aircraft
+DR2-1,SWA169 ,southwest one sixty nine climb and maintain one seven thousand,2334.91,2338.26,transmission to dr one aircraft
+TWA408,DR2-1 ,departure t w a four oh eight is out of fifteen hundred for ten thousand,2342.72,2345.33,
+DR2-1,TWA408 ,t w a four zero eight regional departure radar contact climb and maintain one seven thousand,2345.65,2350.21,
+TWA408,DR2-1 ,up to one seven thousand t w a four zero eight,2350.33,2352.47,
+DR2-1,SWA926 ,southwest nine twenty six contact fort worth center one three two point eight five,2379.37,2383.28,transmission to dr one aircraft
+DR2-1,SWA169 ,southwest one sixty nine turn right heading one niner zero,2423.26,2426.33,transmission to dr one aircraft
+DR2-1,TWA408 ,t w a four zero eight turn right to heading zero one five,2431.19,2433.98,
+TWA408,DR2-1 ,right to zero one five t w a four zero eight,2434.70,2437.03,
+DR2-1,SWA169 ,southwest one sixty nine contact fort worth center one three three point three,2482.64,2486.26,transmission to dr one aircraft
+DR2-1,TWA408 ,t w a four zero eight contact fort worth center one three four point one five good day,2552.41,2556.36,
+TWA408,DR2-1 ,twenty four fifteen t w a four zero eight good night sir,2556.60,2558.77,
+DR2-1,SWA49 ,southwest forty nine regional departure roger radar contact,2571.23,2576.39,transmission to dr one aircraft
+MEX309,DR2-1 ,departure mid x three oh nine out of two thousand for ten thousand,2600.71,2603.72,
+DR2-1,SWA49 ,southwest forty nine turn right heading one three zero climb and maintain eight thousand,2629.29,2633.43,transmission to dr one aircraft
+DR2-1,MEX309 ,mid x three zero nine climb and maintain one seven thousand,2639.83,2642.94,
+MEX309,DR2-1 ,climb to one seven thousand mid x three oh nine,2643.38,2645.31,
+AAL1263,DR2-1 ,departure american twelve sixty three one point five climbing to ten,2677.40,2680.81,
+DR2-1,AAL1263 ,american twelve sixty three regional departure radar contact climb and maintain one seven thousand,2682.03,2686.51,
+AAL1263,DR2-1 ,one seven thousand american twelve sixty three,2686.97,2690.12,
+DR2-1,SWA49 ,southwest forty nine climb and maintain one seven thousand turn right heading one six five,2701.26,2705.82,transmission to dr one aircraft
+DR2-1,AAL1263 ,american twelve sixty three cleared direct ardmore,2763.09,2765.36,
+AAL1263,DR2-1 ,direct ardmore american twelve sixty three,2766.18,2768.59,
+DR2-1,SWA49 ,southwest one forty nine contact fort worth center one three three point three,2806.92,2810.16,transmission to dr one aircraft
+DR2-1,SWA49 ,good day,2812.38,2813.05,
+DR2-1,MEX309 ,mid x three zero nine contact fort worth center one three four point one five,2813.71,2817.36,
+MEX309,DR2-1 ,one thirty four one five see you,2817.86,2819.51,
+DR2-1,AAL1263 ,american twelve sixty three contact fort worth center one three four point one five,2867.33,2871.21,
+AAL1263,DR2-1 ,one three four one five american twelve sixty three good day,2872.07,2874.82,
+DR2-1,AAL1263 ,good day,2874.98,2875.62,
+AAL1393,DR2-1 ,regional departure american thirteen ninety three out of fifteen hundred for ten thousand,3327.18,3330.86,
+DR2-1,AAL1393 ,american thirteen ninety three regional departure radar contact climb and maintain one seven thousand,3331.48,3335.70,
+AAL1393,DR2-1 ,on to one seven thousand american thirteen ninety three,3336.12,3338.54,
+AAL193,DR2-1 ,departure american one ninety three is with you out of two thousand for one zero thousand,3432.19,3435.33,
+DR2-1,AAL193 ,whos that,3437.75,3438.47,
+AAL193,DR2-1 ,its good old american one ninety three out of twenty two hundred now for one zero thousand,3440.16,3444.22,
+DR2-1,AAL193 ,american one ninety three regional departure roger squawk two two seven six,3444.58,3449.04,
+AAL193,DR2-1 ,two two seven six american one ninety three,3449.54,3452.52,
+DR2-1,AAL193 ,and american one ninety three is radar contact,3462.15,3464.85,
+AAL193,DR2-1 ,roger,3465.49,3466.27,
+DR2-1,AAL1393 ,american thirteen ninety three contact fort worth center ah disregard stay on this frequency and ah climb maintain one seven thousand no delay through one zero thousand,3471.99,3479.59,
+AAL1393,DR2-1 ,o k sir for american thirteen ninety three its ah climb to one seven thousand no delay through twelve,3481.56,3486.96,
+DR2-1,AAL1393 ,thats correct sir,3487.20,3488.22,
+DR2-1,AAL193 ,american one ninety three climb and maintain one seven thousand,3490.98,3494.46,
+AAL193,DR2-1 ,one seven thousand for american one ninety three,3494.96,3497.40,
+UAL696,DR2-1 ,regional departure united six ninety six thirty four hundred for ten ah thousand,3501.00,3504.89,
+DR2-1,UAL696 ,united six ninety six regional departure radar contact climb and maintain one seven thousand,3505.71,3511.17,
+UAL696,DR2-1 ,climb to one seven thousand united six ninety six,3511.99,3514.83,
+DR2-1,SWA48 ,southwest forty eight regional departure radar contact fly runway heading,3514.93,3518.91,transmission to dr one aircraft
+DR2-1,AAL193 ,american one ninety three turn left heading three four zero,3524.42,3527.42,
+AAL193,DR2-1 ,three four zero american one ninety three,3528.10,3529.76,
+DR2-1,SWA48 ,southwest forty eight climb and maintain one zero thousand,3562.88,3566.14,
+DR2-1,UAL696 ,united six ninety six fly heading zero two zero,3591.33,3593.72,
+UAL969,DR2-1,zero two zero united six ninety six,3594.36,3596.47,

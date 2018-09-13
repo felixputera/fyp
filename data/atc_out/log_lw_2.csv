@@ -1,0 +1,426 @@
+from,to,text,time_start,time_end,comment
+LCW-1,DGT4,digital four boston skyways give way to your company inbound he is just inside the gate area there proceed as requested altimeter is three zero one one report airborne,14.99,22.87,aircraft on another frequency
+LCW-1,GAA456,bizex four fifty six traffic holding in position cross runway two two right and contact ground point nine,29.87,33.70,
+LCW-1,AAL291,american two ninety one turn left heading one four zero and contact departure,38.93,41.73,
+AAL291,LCW-1,one forty to departure american two ninety one,41.85,44.30,
+LCW-1,DAL1833,delta eighteen thirty three runway two two right cleared for takeoff,55.66,58.34,
+DAL1833,LCW-1,eighteen thirty three cleared for takeoff two two right,60.98,63.25,pilot omitted ident prefix
+LCW-1,NERA3724,nera thirty seven twenty four boston tower runway two two right taxi into position and hold,63.59,67.03,
+NERA3724,LCW-1,position and hold thirty seven twenty four,67.16,69.50,pilot omitted ident prefix
+LCW-1,DGT4,digital four radar contact say altitude,75.55,77.15,
+LCW-1,DGT4,digital four roger,79.06,79.90,aircraft on another frequency
+LCW-1,DGT1,digital one ident,80.09,81.37,
+LCW-1,DGT1,digital one you're radar contact eight miles northwest you're cleared into the t c a maintain v f r at or below a thousand altimeter three zero one zero report the coast guard station,86.63,94.03,aircraft on another frequency
+LCW-1,NERA3724,nera thirty seven twenty four runway two two right cleared for takeoff,95.58,98.24,
+NERA3724,LCW-1,rolling thirty seven twenty four,98.46,100.33,pilot omitted ident prefix
+LCW-1,NERA3761,nera thirty seven sixty one boston tower runway two two right taxi into position and hold,101.52,105.05,
+NERA3761,LCW-1,position and hold thirty seven sixty one,105.25,107.19,pilot omitted ident prefix
+LCW-1,DGT4,digital four traffic at twelve o'clock three miles opposite direction thousand feet,114.47,117.86,aircraft on another frequency
+LCW-1,DAL1833,delta eighteen thirty three heading one four zero contact departure,122.52,125.11,
+DAL1833,LCW-1,good day,125.43,126.06,
+LCW-1,DGT1,digital one company traffic is ah twelve o'clock and three miles southbound on a hampshire route a thousand feet,126.43,132.14,aircraft on another frequency
+LCW-1,DIG5,digital five departure from the city will be at your own risk traffic is a red metro liner just lifting off runway two two right will be in a right turn northwest bound advise him in sight,138.64,145.46,
+LCW-1,DGT5,digital five you can proceed as requested report landing assured at the city winds at logan two seven zero one zero altimeter three zero one zero,147.93,154.19,aircraft on another frequency
+LCW-1,NERA3724,nera thirty seven twenty four turn right heading three zero zero contact departure traffic will be a helicopter lifting off from the u s air gates he has has you in sight maintaining visual,155.54,163.34,
+NERA3724,LCW-1,okay we'll see you,163.52,165.10,
+LCW-1,COM903,commuter nine zero three boston tower traffic holding in position cross runway two two right and contact ground point nine,165.36,169.72,
+COM903,LCW-1,nine zero three crossing the right side,169.78,171.48,
+LCW-1,DGT4,digital four did you copy company traffic at twelve o'clock and a mile thousand,171.67,175.03,aircraft on another frequency
+LCW-1,DAL367,delta three sixty seven boston tower traffic will hold in position cross runway two two right and contact ground point nine,181.78,186.37,
+DAL367,LCW-1,crossing two two right delta three sixty seven,186.77,188.79,
+LCW-1,DGT4,roger maintain visual separation with your company,190.44,192.59,transmission possibly to unk4 who is on another frequency
+LCW-1,DGT1,digital one you did say you're landing at logan,193.53,195.17,
+LCW-1,DGT1,roger report the coast guard station,196.31,197.75,aircraft on another frequency
+LCW-1,DGT5,digital five roger,216.89,217.87,aircraft on another frequency
+LCW-1,NERA3761,nera thirty seven sixty one runway two two right cleared for takeoff,219.19,221.63,
+NERA3761,LCW-1,thirty seven sixty one cleared to go,222.01,223.77,pilot omitted ident prefix
+LCW-1,N2TJ,king air nine nine two tango juliet boston tower runway two two right taxi into position and hold after departure turn right heading two four zero,224.07,229.63,
+N2TJ,LCW-1,okay position and hold after departure two four zero,230.66,233.05,
+LCW-1,N2TJ,king air two tango juliet runway two two right cleared for takeoff,252.78,255.20,
+N2TJ,LCW-1,cleared to go tango juliet,255.58,257.16,
+LCW-1,NWA1175,northwest eleven seventy five boston tower runway two two right taxi into position and hold,263.67,266.88,
+NWA1175,LCW-1,position and hold two two right northwest eleven seventy five,266.97,269.63,
+LCW-1,NERA3761,nera thirty seven sixty one turn right heading three zero zero remain this frequency,269.77,273.56,
+NERA3761,LCW-1,right three zero zero thirty seven sixty one,273.82,275.89,pilot omitted ident prefix
+LCW-1,DGT1,digital,277.63,278.32,
+LCW-1,DGT1,digital one traffic is a beech ninety nine in a right turn off the departure end of runway two two right northwest bound advise him in sight,280.89,286.17,
+LCW-1,DGT1,roger maintain visual separation with that traffic and you're cleared to land logan helipad,288.23,291.99,aircraft on another frequency
+LCW-1,NERA3761,nera thirty seven sixty one traffic a helicopter one o'clock low has you in sight contact departure,294.95,299.70,
+LCW-1,NWA1175,northwest eleven seventy five runway two two right cleared for takeoff,304.25,307.41,
+NWA1175,LCW-1,cleared for takeoff northwest eleven seventy five two two right,308.13,310.60,
+LCW-1,GAA534,bizex five thirty four boston tower runway two two right taxi into position and hold,310.82,313.72,
+GAA534,LCW-1,and position and hold bizex five thirty four,313.99,315.89,
+LCW-1,N2TJ,king air two tango juliet heading two four zero contact departure,316.14,319.07,
+N2TJ,LCW-1,see you later tango juliet,319.36,320.75,
+LCW-1,DGT4,digital four radar service terminated squawk one two zero zero frequency change approved,323.98,327.22,aircraft on another frequency
+LCW-1,DGT1,digital one you can hover taxi to ramp this frequency,329.31,331.24,aircraft on another frequency
+LCW-1,GAA534,bizex five thirty four runway two two right cleared for takeoff,341.96,344.52,
+GAA534,LCW-1,cleared for takeoff bizex five thirty four,345.67,347.51,
+LCW-1,NERA3712,nera thirty seven twelve boston tower runway two two right taxi into position and hold traffic will cross down field,348.71,353.13,
+NERA3712,LCW-1,thirty seven twelve position and hold two two right,353.30,355.11,pilot omitted ident prefix
+LCW-1,NWA1175,northwest eleven seventy five turn left heading one four zero contact departure,357.47,360.87,
+NWA175,LCW-1,left one forty to departure eleven seventy five,360.94,362.79,
+LCW-1,USA674,u s air six seventy four be one more departure he's on the roll now,366.57,369.22,
+USA674,LCW-1,okay,369.22,369.58,
+LCW-1,USA674,u s air six seventy four traffic holding in position cross runway two two right and contact ground point nine,378.25,382.84,
+USA674,LCW-1,cross two two right right and then call ground u s air six seventy four,383.25,386.77,
+LCW-1,GAA534,bizex five thirty four turn right heading three zero zero and contact departure,387.35,390.93,
+GAA534,LCW-1,right to three zero zero over to departure good day sir,391.24,393.11,
+LCW-1,GAA534,good day,393.13,393.63,
+UNK,LCW-1,wind check,405.34,405.93,
+LCW-1,UNK,wind ah two six zero at seven,407.72,409.62,
+LCW-1,AAL1012,american ten twelve boston tower traffic will hold in position cross runway two two right and contact ground point nine,413.72,417.87,
+AAL1012,LCW-1,cross two two right american ten twelve,418.13,419.99,
+LCW-1,NERA3712,nera thirty seven twelve boston tower runway two two right cleared for takeoff,455.87,458.38,
+NERA3712,LCW-1,cleared to go two two right nera thirty seven twelve,458.50,460.69,
+LCW-1,PCN3565,precision thirty five sixty five boston tower runway two two right taxi into position and hold,460.94,464.47,
+PCN3565,LCW-1,into position and hold thirty five sixty five,464.71,467.15,pilot omitted ident prefix
+LCW-1,PCN3565,precision thirty five sixty five runway two two right cleared for takeoff,487.13,489.75,
+PCN3565,LCW-1,cleared to go thirty five sixty five,490.32,492.12,pilot omitted ident prefix
+LCW-1,N20S,cessna four eight two zero sierra boston tower runway two two right taxi into position and hold,492.70,495.86,
+N20S,LCW-1,position and hold two two right two zero sierra,495.87,497.66,
+USA726,LCW-1,u s air seven twenty six,501.58,502.92,
+LCW-1,NERA3712,nera thirty seven twelve turn right heading turn right heading three zero zero and contact departure,503.98,507.06,
+NERA3712,LCW-1,right three zero zero nera thirty seven ten,507.09,509.06,pilot used incorrect flight number
+LCW-1,USA726,u s air seven twenty six boston tower hold short,509.27,511.37,
+USA726,LCW-1,hold short u s air seven twenty six,511.72,513.28,
+GAA523,LCW-1,tower bizex five twenty three ah checking in at seven out for two two right,514.24,517.94,
+LCW-1,GAA523,bizex five twenty three boston tower roger continue expect landing clearance ah closer in,518.10,521.76,
+GAA523,LCW-1,roger,521.93,522.52,
+LCW-1,N20S,cessna two zero sierra runway two two right cleared for takeoff,525.32,528.00,
+N20S,LCW-1,cleared for takeoff two zero sierra,528.06,529.44,
+LCW-1,NERA2109,nera twenty one zero five boston tower runway two two right taxi into position and hold,529.74,533.08,
+NERA2109,LCW-1,position and hold nera twenty one zero nine,533.10,534.97,controller used incorrect flight number
+LCW-1,PCN3565,precision thirty five sixty fly heading two seven zero contact departure turn right heading two seven zero,535.47,540.15,sounds like controller used incorrect flight number
+PCN3565,LCW-1,right to two seventy over to departure thirty five ah sixty five,540.34,543.36,pilot omitted ident prefix
+LCW-1,NERA2109,nera twenty one zero nine are you able to ah maintain visual with the cessna ahead,554.35,557.19,
+NERA2109,LCW-1,affirm we will,557.38,558.25,
+LCW-1,NERA2109,nera twenty one zero nine runway two two right cleared for takeoff,558.41,560.71,
+NERA2109,LCW-1,cleared for takeoff twenty one zero nine,560.84,562.25,pilot omitted ident prefix
+LCW-1,GAA497,bizex four ninety seven boston tower runway two two right taxi into position and hold after departure fly runway heading,564.98,569.00,
+GAA497,LCW-1,on and hold four ninety seven,569.35,570.68,pilot omitted ident prefix
+LCW-1,N20S,cessna two zero sierra turn right heading two four zero,572.85,575.61,
+N20S,LCW-1,right turn two four zero two zero sierra,575.88,577.63,
+LCW-1,N20S,cessna two zero sierra contact departure one three three point zero,579.23,582.34,
+N20S,LCW-1,thirty three zero two zero sierra,582.50,584.11,
+LCW-1,GAA497,bizex four ninety seven runway two two right cleared for takeoff,584.29,586.75,
+GAA497,LCW-1,cleared to go four ninety seven,587.13,588.35,pilot omitted ident prefix
+LCW-1,GAA523,bizex five twenty three traffic departure roll wind two eight zero at one four runway two two right cleared to land,588.82,593.42,
+LCW-1,GAA523,bizex five twenty three runway two two right cleared to land,598.80,601.33,
+GAA523,LCW-1,cleared to land two two right five twenty three,601.49,603.50,pilot omitted ident prefix
+LCW-1,N47E,whiskey calling stand by,603.69,604.99,
+LCW-1,NERA2109,nera twenty one zero nine turn left heading one five zero and contact departure,606.89,610.07,
+NERA2109,LCW-1,one fifty good day,610.19,611.14,
+LCW-1,N47E,whiskey calling say again,616.69,617.76,
+LCW-1,N47E,whiskey five four seven echo squawk five one five zero i'll be back with you just a minute,628.65,632.82,aircraft on another frequency
+LCW-1,GAA497,bizex four ninety seven fly runway heading contact departure,634.03,636.76,
+GAA497,LCW-1,four ninety seven so long,636.89,638.10,pilot omitted ident prefix
+LCW-1,NERA2109,nera twenty one zero nine contact departure,639.47,641.25,
+LCW-1,DAL410,delta four ten boston tower runway two two right taxi into position and hold traffic will cross down field,652.77,657.30,
+DAL410,LCW-1,position and hold delta four ten,657.35,659.40,
+LCW-1,USA726,u s air seven twenty six traffic on the runway is at taxi speed cross runway two two right and contact ground point nine,665.49,670.17,
+USA726,LCW-1,u s air seven twenty six roger,670.55,671.93,
+GAA498,LCW-1,bizex four ninety eight is with you,672.92,674.32,
+LCW-1,GAA523,bizex five twenty three turn right and contact ground point nine traffic crossing down field,679.18,682.83,
+GAA523,LCW-1,five twenty three roger right turn,683.34,684.94,
+LCW-1,N47E,whiskey five four seven echo can you ah take it from the ah outer taxiway,695.40,699.57,
+LCW-1,N47E,whiskey five four seven echo give way to continental from the outer taxiway you're cleared for takeoff you're cleared out of the t c a via the turnpike route maintain at or below a thousand for now,701.90,709.65,aircraft on another frequency
+LCW-1,GAA498,bizex four ninety eight boston tower cross runway two two right and contact ground point nine give way to ah continental,727.70,732.31,
+GAA498,LCW-1,okay cross two two right we'll give way bizex four ninety eight,732.66,735.32,
+LCW-1,NERA3778,nera thirty seven seventy eight boston tower cross runway two two right and contact ground point nine,735.51,739.55,
+NERA3778,LCW-1,thirty seven seventy eight roger,739.67,740.99,pilot omitted ident prefix
+LCW-1,DAL410,delta four ten runway two two right cleared for takeoff,773.08,775.17,
+DAL410,LCW-1,cleared for takeoff delta four ten,775.32,777.98,
+LCW-1,COA1503,continental ten correction continental fifteen zero three boston tower runway two two right taxi into position and hold,780.02,784.65,
+COA1503,LCW-1,in position and hold continental fifteen oh three,784.73,786.81,
+LCW-1,N47E,whiskey five four seven echo radar contact say altitude,807.72,810.36,
+LCW-1,N47E,whiskey four seven echo,812.77,814.05,aircraft on another frequency
+LCW-1,DAL410,delta four ten contact departure,824.03,825.89,
+DAL410,LCW-1,so long,825.95,826.57,
+LCW-1,COA1503,continental fifteen zero three runway two two right cleared for takeoff,827.06,829.70,
+COA1503,LCW-1,cleared for takeoff continental fifteen oh three,829.80,831.74,
+LCW-1,GAA302,bizex three zero two boston tower runway two two right taxi into position and hold,832.28,835.50,
+GAA302,LCW-1,ah bizex three zero two into position and hold twenty two right,839.42,842.34,
+LCW-1,GAA302,bizex three zero two runway two two right cleared for takeoff,867.98,870.45,
+GAA302,LCW-1,cleared to go bizex three oh two two two right,870.66,872.97,
+LCW-1,BTA3824,jet link thirty eight twenty four boston tower runway two two right taxi into position and hold traffic will cross down field,873.16,877.03,
+BTA3824,LCW-1,position and hold thirty eight twenty four,877.48,879.46,pilot omitted ident prefix
+LCW-1,COA1503,continental fifteen zero three turn left heading one four zero contact departure,883.74,886.91,
+COA1503,LCW-1,one four zero departure good day sir,887.24,888.77,
+LCW-1,N47E,whiskey five four seven echo one thousand five hundred is approved,902.74,905.26,aircraft on another frequency
+LCW-1,N4LA,lear six eight four lima alpha boston tower cross runway two two right and contact ground point nine traffic will hold in position,908.87,913.78,
+N4LA,LCW-1,cross the runway lima alpha,914.10,915.78,
+LCW-1,AAL1136,american eleven thirty six heavy boston tower cross runway two two right and contact ground point nine,916.13,919.93,
+AAL1136,LCW-1,eleven thirty six heavy cleared to cross ground the other side thank you,920.18,922.65,
+LCW-1,GAA302,bizex three zero two turn right heading three zero zero and contact departure,923.01,926.32,
+LCW-1,N47E,whiskey four seven echo one thousand five hundred is approved if you like,928.69,931.75,aircraft on another frequency
+LCW-1,N47E,ah stand by just a second,937.98,939.29,aircraft on another frequency
+LCW-1,N47E,okay whiskey four seven echo you got traffic at one o'clock and ah mile and a half southeast bound altitude indicates seven hundred type unknown,941.01,948.89,aircraft on another frequency
+LCW-1,GAA302,bizex three zero two contact departure,951.47,953.45,
+LCW-1,N47E,what is your on,953.94,954.61,
+LCW-1,N47E,whiskey four seven echo what is your on course heading going to be,955.21,957.84,aircraft on another frequency
+LCW-1,N47E,whiskey four seven echo you can proceed on course climb and maintain v f r four thousand five hundred contact approach on one two seven point two,990.18,998.01,aircraft on another frequency
+LCW-1,DGT1,digital one standby,1005.13,1006.29,
+LCW-1,BTA3824,jet link thirty eight twenty four runway two two right cleared for takeoff,1008.38,1011.57,
+BTA3824,LCW-1,cleared for takeoff thirty eight twenty four,1012.00,1013.86,pilot omitted ident prefix
+LCW-1,PAA535,clipper five thirty five boston tower runway two two right taxi into position and hold,1013.98,1017.04,
+PAA535,LCW-1,position and hold two two right clipper five thirty five,1017.17,1019.04,
+LCW-1,DGT1,digital one you can proceed as requested altimeter three zero one correction three zero zero niner,1020.02,1025.04,aircraft on another frequency
+LCW-1,PAA535,clipper five thirty five runway two two right cleared for takeoff,1044.58,1046.89,
+PAA535,LCW-1,cleared for takeoff clipper five thirty five,1046.99,1048.61,
+LCW-1,COA319,continental three nineteen boston tower runway two two right full length taxi into position and hold,1049.26,1052.76,
+COA319,LCW-1,position and hold continental three nineteen,1052.90,1054.50,
+LCW-1,BTA3824,jet link thirty eight twenty four traffic a helicopter at your one o'clock low advise him in sight,1054.70,1058.43,
+BTA3824,LCW-1,thirty eight twenty four we have him in sight,1059.74,1061.63,pilot omitted ident prefix
+LCW-1,BTA3824,jet link thirty eight twenty four maintain visual separation with that traffic ah turn right heading three zero zero and contact departure,1061.79,1067.82,
+BTA3824,LCW-1,we'll maintain visual with him three zero zero over to departure jet link thirty eight twenty four,1068.03,1071.68,
+LCW-1,DGT1,digital one traffic a beech ninety nine in a right turn off the departure end of runway two two right northwest bound he has you in sight maintaining visual,1072.79,1078.94,aircraft on another frequency
+LCW-1,DGT1,digital one radar contact say altitude,1100.52,1102.37,
+LCW-1,PAA535,clipper five thirty five turn left heading one four zero contact departure,1122.51,1125.44,
+PAA535,LCW-1,one four zero going to departure clipper five thirty five,1125.89,1128.15,
+LCW-1,COA319,continental three nineteen runway two two right cleared for takeoff,1128.32,1130.77,
+COA319,LCW-1,cleared for takeoff continental three nineteen,1131.68,1133.64,
+LCW-1,GAA703,bizex seven zero three boston tower runway two two right taxi into position and hold,1133.81,1136.90,
+GAA703,LCW-1,position and hold bizex seven oh three,1137.38,1138.77,
+PXX798,LCW-1,seven ninety eight,1146.54,1147.44,controller addressed transmission to two aircraft but only one responded; also transposed company prefixes and trip numbers; see next tx to these aircraft below
+LCW-1,GAA703,bizex three zero correction seven zero three runway two two right cleared for takeoff,1175.03,1178.65,
+GAA703,LCW-1,cleared to go bizex seven oh three,1178.93,1180.22,
+LCW-1,COA319,continental three nineteen turn left heading one four zero contact departure,1187.57,1190.50,
+COA319,LCW-1,one forty contact departure continental er three nineteen,1190.77,1194.66,
+LCW-1,PXX798,pan am seven ninety eight boston tower cross runway two two right and contact ground point nine,1210.75,1214.25,
+PXX798,LCW-1,pan am seven ninety eight cross the right to ground,1214.78,1217.24,
+LCW-1,PAA532,clipper five thirty two boston tower give way to the dash off your right cross runway two two right and contact ground point nine,1217.50,1221.79,
+PAA532,LCW-1,clipper five thirty two roger cross two two right,1222.20,1224.23,
+LCW-1,GAA703,bizex seven zero three turn right heading two seven zero and contact departure,1224.46,1227.58,
+GAA703,LCW-1,two seventy we'll see you,1227.75,1228.78,
+LCW-1,USA1620,u s air sixteen twenty boston tower cross runway two two right and contact ground point nine,1230.46,1234.13,
+USA1620,LCW-1,cross two two right and switch u s air sixteen twenty,1234.32,1237.11,
+LCW-1,USA195,u s air one ninety five boston tower runway two two right taxi into position and hold traffic crossing down field,1259.79,1264.64,
+USA195,LCW-1,position and hold two two right u s air one ninety five,1265.54,1268.09,
+LCW-1,USA195,u s air one ninety five boston tower runway two two right cleared for takeoff,1304.85,1307.54,
+PCN3533,LCW-1,visual for two two right,1307.53,1308.74,
+LCW-1,USA195,u s air one ninety five runway two two right cleared for takeoff,1311.12,1313.44,
+USA195,LCW-1,yeah we're gonna have to hold for a second for u s air's one ninety five we still need some numbers,1313.74,1317.30,
+LCW-1,USA195,u s air one ninety five cancel takeoff clearance hold short of the runway advise me when you're ready,1317.46,1321.35,
+USA195,LCW-1,all right sir,1321.44,1322.01,different pilot voice than the first contact
+LCW-1,PCN3533,precision thirty five thirty three boston tower wind two eight zero at one two runway two two right cleared to land,1322.33,1326.75,
+PCN3533,LCW-1,okay we're cleared to land precision thirty five thirty three on two two right,1327.20,1330.08,
+USA195,LCW-1,u s air one ninety five is ready,1391.75,1393.53,
+LCW-1,DGT1,digital one roger radar service terminated squawk one two zero zero frequency change approved,1395.28,1398.95,
+LCW-1,USA195,u s air one ninety five did you call,1401.23,1402.60,
+USA195,LCW-1,u s air one ninety five is ready,1402.79,1404.35,
+LCW-1,USA195,roger hold short be one arrival he's on a mile and a half final,1404.51,1407.75,
+USA195,LCW-1,one ninety five,1408.12,1408.99,original female voice
+PCN3533,LCW-1,wind check,1424.44,1425.18,
+LCW-1,PCN3533,wind's three zero at eight,1427.91,1429.27,
+LCW-1,USA195,u s air one ninety five runway two two right taxi into position and hold,1445.35,1448.67,
+USA195,LCW-1,position and hold two two right u s air one ninety five,1449.00,1451.40,
+LCW-1,PCN3533,precision thirty five thirty three turn right on runway three three left and contact ground point nine,1461.57,1465.72,
+PCN3533,LCW-1,okay right on three three left contact ground point nine precision thirty five thirty three,1465.99,1469.32,
+LCW-1,USA195,u s air one ninety five runway two two right cleared for takeoff,1489.27,1491.63,
+USA195,LCW-1,cleared to go u s air's one ninety five,1491.87,1493.25,male voice
+LCW-1,USA195,u s air one ninety five turn left heading one four zero and contact departure,1539.36,1542.37,
+USA195,LCW-1,u s air's one ninety five have a good day,1542.59,1544.17,
+LCW-1,PCN3518,precision thirty five eighteen can you take it from ah runway one five left,1548.38,1551.52,
+PCN3518,LCW-1,ah we're just gonna need a couple of seconds to get ah the other engine started,1553.98,1558.03,
+LCW-1,PCN3518,okay,1558.11,1558.97,
+CAR12,LCW-1,boston ground this is f a a car twelve,1567.33,1569.31,
+LCW-1,CAR12,f a a car twelve boston tower,1569.54,1571.24,
+LCW-1,CAR12,f a a car twelve cross runway two two right,1577.07,1579.47,
+CAR12,LCW-1,f a a car twelve i didn't read,1583.50,1585.26,
+LCW-1,CAR12,f a a car twelve cross runway two two right,1585.39,1587.82,
+CAR12,LCW-1,car twelve roger,1588.15,1589.19,
+LCW-1,PCN3518,precision thirty five eighteen runway two two right taxi into position and hold advise me when you're ready,1590.41,1594.22,
+PCN3518,LCW-1,okay we'll let you know,1594.73,1596.05,
+LCW-1,PCN3518,precision thirty five eighteen are you ready,1668.77,1670.52,
+LCW-1,PCN3518,precision thirty five eighteen are you ready,1681.70,1683.29,
+PCN3518,LCW-1,we're all set and we're ready to go,1684.51,1685.95,
+LCW-1,PCN3518,precision thirty five eighteen runway two two right cleared for takeoff,1686.16,1688.45,
+PCN3518,LCW-1,cleared for takeoff thirty five eighteen,1688.54,1690.03,pilot omitted ident prefix
+LCW-1,PCN3562,precision thirty five sixty two boston tower runway two two right taxi into position and hold,1709.33,1712.65,
+PCN3562,LCW-1,position and hold thirty five sixty two,1712.69,1714.34,pilot omitted ident prefix
+LCW-1,PCN3518,precision thirty five eighteen turn right heading three zero zero and contact departure,1732.65,1736.35,
+PCN3518,LCW-1,right three zero zero over to departure good day,1736.84,1738.87,
+LCW-2,PCN3562,precision thirty five sixty two runway two two right cleared for takeoff,1773.12,1776.52,
+PCN3562,LCW-1,cleared to go thirty five sixty two,1776.65,1778.17,pilot omitted ident prefix
+LCW-2,ALL,current atis at the airport is foxtrot weather v f r wind light and variable altimeter three zero zero eight,1779.65,1785.38,this is a blind broadcast to all aircraft on the frequency
+LCW-2,USA693,u s air six ninety three boston tower runway two two right taxi into position and hold,1788.10,1792.55,
+USA693,LCW-2,position and hold two two right u s air six ninety three,1792.91,1795.18,
+LCW-2,NERA3683,nera thirty six eighty three boston tower traffic will hold in position cross runway two two right contact ground point niner after crossing,1828.21,1835.56,
+NERA3683,LCW-2,okay cross two two right thirty six eighty three,1836.23,1839.11,pilot omitted ident prefix
+LCW-2,PCN3562,precision thirty five sixty two turn right heading three zero zero contact departure,1845.45,1850.26,
+PCN3562,LCW-2,three hundred see you later thirty five sixty two,1850.42,1852.63,pilot omitted ident prefix
+LCW-2,USA693,u s air six ninety three runway two two right cleared for takeoff,1873.60,1877.02,
+USA693,LCW-2,cleared to go two two right u s air six ninety three,1877.30,1879.54,
+LCW-2,COA390,continental three ninety boston tower cross runway two two right contact ground point niner after crossing,1918.06,1922.97,
+COA390,LCW-2,cross two two right and then ground continental three ninety,1923.36,1926.11,
+LCW-2,USA693,u s air six ninety three turn left heading one four zero contact departure,1926.73,1930.66,
+USA693,LCW-2,six ninety three u s air good day now,1930.95,1932.91,
+LCW-2,USA693,see you later peg,1933.05,1934.02,
+USA693,LCW-2,ah this is chris,1934.66,1935.75,
+LCW-2,UAL1032,u s air ten thirty two boston tower cross runway two two right correction united ten thirty two cross runway two two right contact ground point niner after crossing,1986.18,1995.91,
+LCW-2,UAL1032,united ten thirty two cross two two right contact ground point niner after crossing,1998.39,2002.61,
+LCW-2,UAL1032,united ten thirty two boston tower,2011.60,2013.46,
+UAL1032,LCW-2,and boston tower united ten thirty two is with you holding short of ah two two right,2024.99,2029.41,
+LCW-2,UAL1032,united ten thirty two boston tower cross runway two two right contact ground point niner after crossing,2029.74,2035.08,
+UAL1032,LCW-2,ah cross two two right then we'll contact ground united ten thirty two,2035.34,2038.61,
+N56Z,LCW-2,boston tower five six zulu is with you crossing two two left to hold short of two two right,2181.00,2184.61,
+LCW-2,N56Z,citation five six zulu boston tower cross runway two two right then turn left for taxi to general aviation,2184.83,2190.52,
+N56Z,LCW-2,okay we'll cross left and right and left turn to general aviation five six zulu,2191.37,2194.90,
+LCW-2,N56Z,citation five six zulu beech ninety nine is giving way,2229.11,2232.08,
+N56Z,LCW-2,okay and ah citation five six zulu roger we got him in sight,2233.03,2236.22,
+CAR12,LCW-2,boston ground f a a car twelve,2260.61,2262.42,
+LCW-2,CAR12,f a a car twelve boston ground,2262.62,2264.67,
+CAR12,LCW-2,yeah i'd like to cross two two right inbound,2265.74,2267.97,
+LCW-2,CAR12,f a a car twelve cross runway two two right at charlie,2269.22,2272.49,
+CAR12,LCW-2,roger,2273.50,2274.23,
+COM853,LCW-2,hello tower commuter eight fifty three is with you for two two right,2331.08,2333.61,
+LCW-2,COM853,calling boston tower say again,2335.08,2336.41,
+COM853,LCW-2,commuter eight fifty three has ah with you for two two right,2336.64,2340.02,
+LCW-2,COM853,commuter eight fifty three boston tower wind two seven zero one zero runway two two right cleared to land,2340.31,2345.63,
+COM853,LCW-2,cleared to land two two right eight fifty three,2345.79,2347.17,pilot omitted ident prefix
+LCW-2,BTA3839,jet link thirty eight thirty nine boston tower runway two two right taxi into position and hold,2414.82,2419.40,
+BTA3839,LCW-2,position and hold on two two right jet link thirty eight thirty nine,2419.53,2422.18,
+LCW-2,COM853,commuter eight fifty three turn right when able contact ground point niner when off,2440.58,2445.25,
+COM853,LCW-2,eight fifty three roger,2445.40,2446.37,pilot omitted ident prefix
+LCW-2,BTA3839,jet link thirty eight thirty nine runway two two right cleared for takeoff,2452.91,2456.79,
+BTA3839,LCW-2,cleared for takeoff on two two right jet link thirty eight thirty nine,2456.97,2459.23,
+LCW-2,BTA3839,jet link thirty eight thirty nine turn left heading one five zero contact departure,2503.49,2508.48,
+BTA3839,LCW-2,left to one five zero and switching to departure see you jet link thirty eight thirty nine,2509.06,2513.16,
+LCW-2,BTA3839,see you later,2513.50,2514.13,
+TPS1071,LCW-2,trump ten seventy one is ready to go,2545.39,2546.95,
+LCW-2,TPS1071,trump ten seventy one runway two two right taxi into position and hold,2547.26,2551.00,
+TPS1071,LCW-2,position and hold two two right trump ten seventy one,2551.20,2553.19,
+LCW-2,TPS1071,trump ten seventy one runway two two right cleared for takeoff,2605.86,2609.21,
+TPS1071,LCW-2,ten seventy one rolling two two right,2609.41,2611.26,pilot omitted ident prefix
+LCW-2,GAA459,bizex four fifty nine boston tower runway two two right taxi into position and hold,2611.50,2615.53,
+GAA459,LCW-2,two two right position and hold bizex four fifty nine,2615.60,2618.07,
+LCW-2,GAA459,bizex four fifty nine runway two two right cleared for takeoff,2640.67,2643.86,
+GAA459,LCW-2,two two right cleared for takeoff bizex four fifty nine,2644.43,2646.53,
+LCW-2,NERA3709,nera thirty seven zero niner boston tower runway two two right taxi into position and hold,2646.78,2651.32,
+LCW-2,NERA3709,nera thirty seven zero nine boston tower runway two two right taxi into position and hold,2657.23,2661.18,
+LCW-2,TPS1071,trump ten seventy one turn left heading one four zero contact departure have a good day,2662.83,2667.02,
+TPS1071,LCW-2,so long,2667.12,2667.79,
+NERA3709,LCW-2,tower nera thirty seven oh nine is with you i'm sorry i had the wrong frequency there earlier,2691.45,2695.53,
+LCW-2,NERA3709,quite all right nera thirty seven zero nine runway two two right taxi into position and hold traffic crossing down field,2695.81,2701.77,
+NERA3709,LCW-2,position and hold,2702.10,2703.36,
+LCW-2,ATL420,liaison four twenty boston tower cross runway two two right traffic holding in position contact ground niner,2705.00,2711.73,
+ATL420,LCW-2,crossing two two right and then to ground liaison four zero,2712.12,2714.50,
+LCW-2,GAA459,bizex four fifty nine turn right heading two seven zero contact departure,2714.93,2719.33,
+GAA459,LCW-2,roger ah four fifty nine,2719.69,2721.63,pilot omitted ident prefix
+GAA876,LCW-2,ah boston good afternoon bizex eight seventy six about eight miles out,2723.69,2726.85,
+LCW-2,NERA3709,nera thirty seven zero niner runway two two right cleared for takeoff,2727.59,2732.32,
+NERA3709,LCW-2,okay we're on the roll thirty seven oh nine,2733.19,2735.19,pilot omitted ident prefix
+LCW-2,GAA876,bizex eight seventy six boston tower runway two two right cleared to land wind two seven zero at one zero,2735.46,2741.10,
+GAA876,LCW-2,okay cleared to land two two right bizex eight seventy six,2741.57,2744.30,
+GAA876,LCW-2,ah boston bizex eight seventy six confirm two two right,2762.11,2765.55,
+LCW-2,GAA876,bizex eight seventy six runway two two left is closed they said they would have it back at two o'clock but they do not runway two two right cleared to land,2765.78,2775.74,
+GAA876,LCW-2,okay thanks two two right cleared to land,2776.46,2778.30,
+LCW-2,NERA3709,nera thirty seven zero nine fly heading of two zero zero contact departure,2786.39,2793.10,
+NERA3709,LCW-2,two hundred we'll see you,2793.50,2794.75,
+LCW-2,BTA3816,jet link thirty eight sixteen boston tower runway two two right cleared for takeoff traffic on a five mile final landing two two right,2796.82,2803.94,
+BTA3816,LCW-2,cleared to go two two right thirty eight sixteen,2804.24,2807.07,pilot omitted ident prefix
+LCW-2,ALO3679,allegheny thirty six seventy nine traffic on a one mile final cross two two right contact ground point niner after crossing u s air will give way,2857.61,2864.36,
+ALO3679,LCW-2,cross the runway and ah ground point nine,2864.69,2867.42,
+LCW-2,BTA3816,precision jet link thirty eight sixteen turn right heading three zero zero contact departure,2877.43,2881.74,
+BTA3816,LCW-2,right turn three zero zero over to departure thirty eight sixteen good afternoon,2882.13,2885.84,pilot omitted ident prefix
+NPE991,LCW-2,nine ninety one,2938.62,2939.33,pilot omitted ident prefix
+LCW-2,GAA415,bizex four fifteen boston tower follow traffic ahead cross two two right contact ground point niner,2939.71,2944.72,
+GAA415,LCW-2,cleared to cross we'll follow him four fifteen,2944.97,2946.76,pilot omitted ident prefix
+LCW-2,GAA876,bizex eight seventy six join the outer contact ground point niner,2946.86,2951.32,
+LCW-2,USA1253,u s air twelve fifty three boston tower runway two two right taxi into position and hold traffic crossing down field,2963.18,2968.89,
+USA1253,LCW-2,on and hold u s air twelve fifty three,2969.18,2971.15,
+NWA1298,LCW-2,tower northwest twelve ninety eight with you holding short of two two,2986.50,2989.26,
+LCW-2,NWA1298,northwest twelve ninety eight boston tower cross runway two two right contact ground point niner after crossing traffic holding in position,2989.53,2995.75,
+USA1298,LCW-2,twelve ninety eight cleared to cross ground on the other side,2996.07,2998.04,
+GAA535,LCW-2,and bizex five thirty five is with you for the right side,3004.49,3007.01,
+LCW-2,GAA535,bizex five thirty five boston tower one departure prior to your arrival wind two niner zero at one three expect landing clearance abeam rever,3010.04,3017.09,
+GAA535,LCW-2,ah five thirty five roger,3017.85,3019.44,pilot omitted ident prefix
+LCW-2,USA1253,u s air twelve fifty three runway two two right cleared for takeoff,3023.97,3027.86,
+USA1253,LCW-2,cleared to go u s air twelve fifty three,3028.36,3030.11,
+LCW-2,COM825,commuter eight twenty five boston tower runway two two right taxi into position and hold,3030.18,3034.01,
+COM825,LCW-2,position and hold commuter eight twenty five,3034.36,3036.10,
+LCW-2,COM825,commuter eight twenty five traffic departing ah upwind will be in a left turn heading one four zero maintain visual separation with that traffic runway two two right cleared for takeoff,3052.67,3061.47,
+COM825,LCW-2,cleared for takeoff commuter eight twenty five,3061.79,3063.50,
+PCN3577,LCW-2,boston tower precision thirty five seventy seven is with you for the right side,3065.54,3068.63,
+LCW-2,PCN3577,precision thirty five seventy seven boston tower wind three zero zero at one one preceding arrival on a one and one half mile final runway two two right cleared to land,3068.70,3076.92,
+PCN3577,LCW-2,two two right cleared to land precision thirty five seventy seven,3077.47,3080.42,
+LCW-2,COM825,commuter eight twenty five cleared for takeoff or turn right and vacate,3082.34,3085.74,
+COM825,LCW-2,ah we're cleared for takeoff commuter eight twenty five on the roll,3086.40,3088.94,
+LCW-2,GAA535,bizex five thirty five traffic approach end is under way runway two two right cleared to land wind two niner zero at one two,3089.68,3097.13,
+GAA535,LCW-2,cleared to land on the right side for bizex ah five thirty five,3097.31,3100.46,
+LCW-2,USA1253,u s air twelve fifty three turn left heading one four zero contact departure,3100.68,3104.56,
+USA1253,LCW-2,u s air twelve fifty three,3105.09,3106.62,
+LCW-2,COM825,commuter eight twenty five standby for turn,3121.50,3127.90,
+LCW-2,COM825,commuter eight twenty five turn right heading three zero zero contact departure,3132.11,3135.95,
+COM825,LCW-2,three zero zero and to departure commuter eight twenty five it just takes a minute to get those powers up,3136.70,3141.11,different pilot voice
+LCW-2,USA261,u s air two sixty one boston tower runway two two right taxi into position and hold,3142.97,3147.20,
+USA261,LCW-2,on to hold u s air two sixty one,3147.56,3149.01,
+LCW-2,USA1943,u s air nineteen forty three traffic on the runway is at taxi speed no delay cross two two right i have 1347.85706 additional traffic on final contact ground point nine after crossing,3149.43,3157.79,
+USA1943,LCW-2,nineteen forty five,3158.17,3158.86,either the controller or the pilot used the wrong flight number
+LCW-2,GAA535,bizex five thirty five turn right when able contact ground point nine,3159.27,3163.08,
+GAA535,LCW-2,ground point nine for five thirty five,3163.41,3165.19,pilot omitted ident prefix
+TWA807,LCW-2,t w a eight oh seven heavy is ready behind u s air,3168.26,3170.25,
+LCW-2,TWA807,negative t w a eight oh seven i don't have room hold short,3170.79,3173.51,
+TWA807,LCW-2,hold short,3173.72,3174.27,
+LCW-2,USA261,u s air two sixty one runway two two right cleared for takeoff,3174.29,3177.16,
+USA261,LCW-2,cleared to go u s air two sixty one,3177.52,3179.26,
+LCW-2,BTA3805,jet link thirty eight zero five one arrival prior to your departure,3193.15,3196.74,
+BTA3805,LCW-2,thirty eight oh five,3197.32,3198.08,pilot omitted ident prefix
+LCW-2,TWA807,and t w a eight zero seven move up a little bit to that holds hold line i guess the tower is ah clearing somebody off ah two seven behind you another heavy i'll have instructions for you momentarily traffic half a mile final you can barely see him out there,3213.88,3228.85,
+TWA807,LCW-2,okay t w a eight oh seven we'll hold,3229.54,3230.94,
+LCW-2,USA261,u s air two sixty one contact departure,3243.33,3245.72,
+USA261,LCW-2,u s air two sixty one so long,3248.13,3249.60,
+LCW-2,BTA3805,jet link thirty eight zero five boston tower runway two two right taxi into position and hold there'll be three crossings down field,3276.37,3283.26,
+BTA3805,LCW-2,position and hold for jet link thirty eight oh five,3283.57,3285.22,
+LCW-2,TWA807,t w a eight zero seven heavy traffic on the runway is at taxi speed cross runway two two right join the inner contact ground point nine,3300.39,3306.84,
+TWA807,LCW-2,cross two two right t w a eight oh seven,3307.05,3309.33,barely readable due to a carrier on the frequency
+LCW-2,TWA807,t w a eight zero seven heavy turn right join the outer contact ground point nine after crossing,3311.80,3316.46,
+TWA807,LCW-2,eight oh seven heavy roger,3319.93,3321.00,pilot omitted ident prefix
+LCW-2,TWA753,t w a seven fifty three heavy boston tower,3322.45,3324.99,
+PCN3537,LCW-2,with you for two two right,3324.99,3326.21,
+LCW-2,TWA753,t w a seven fifty three heavy boston tower,3326.24,3328.71,
+TWA753,LCE,seven fifty three heavy with you,3328.88,3330.13,pilot omitted ident prefix
+LCW-2,TWA753,yeah maintain your present taxi speed cross runway two two right follow company contact ground point nine,3330.28,3335.23,
+TWA753,LCW-2,follow company go to ground the other side t w a seven fifty three heavy,3335.71,3338.59,
+LCW-2,PCN3577,precision thirty five seventy seven turn right join the outer contact ground,3338.59,3341.58,
+LCW-2,PCN3537,precision thirty five thirty seven boston tower slow to your approach speed now,3343.43,3347.90,
+PCN3537,LCW-2,will do,3348.51,3349.11,
+PCN3537,LCW-2,we're slowing thirty five thirty seven,3349.68,3351.45,probably a different voice
+LCW-2,DAL518,delta eight five eighteen heavy boston tower follow the ah seven six cross runway two two right contact ground point niner after crossing traffic holding in position,3353.76,3364.34,
+DAL518,LCW-2,five eighteen roger,3365.02,3366.58,
+LCW-2,PCN3537,precision thirty five thirty seven one departure prior to your arrival landing clearance over the channel,3382.57,3386.97,
+PCN3537,LCW-2,thirty five thirty seven,3388.42,3389.65,pilot omitted ident prefix
+LCW-2,BTA3805,jet link thirty eight zero five i'll have departure momentarily,3389.66,3393.13,
+BTA3805,LCW-2,thirty eight oh five,3393.39,3394.18,pilot omitted ident prefix
+BTA3805,LCW-2,cleared for takeoff jet link thirty eight oh five,3399.40,3401.00,
+PCN3579,LCW-2,good afternoon boston tower precision thirty five seventy nine with you at two thousand,3439.72,3444.02,
+LCW-2,PCN3579,precision thirty five seventy nine boston tower runway two two left has been inspected and is open wind two eight zero at one three runway two two left cleared to land hold short runway two seven acknowledge the hold,3444.37,3456.83,
+PCN3579,LCW-2,cleared to land two two left hold short of two seven precision thirty five seventy nine,3457.32,3461.25,
+LCW-2,PCN3579,and precision thirty five seventy nine monitor the tower east on one one niner point one,3462.01,3467.87,
+PCN3579,LCW-2,monitoring nineteen one precision thirty five seventy nine,3468.16,3470.74,
+USA230,LCW-2,u s two ninety holding short,3473.37,3474.92,pilot used incomplete prefix and wrong flight number
+GAA499,LCW-2,and bizex four ninety nine is holding short,3478.37,3480.29,
+LCW-2,GAA499,bizex four ninety nine in sight,3480.38,3482.09,
+LCW-2,BTA3805,jet link thirty eight zero five turn left heading one five zero contact departure,3485.89,3490.35,
+BTA3805,LCW-2,one fifty over to departure good day,3490.65,3492.01,
+USA230,LCW-2,u s two thirty to cross,3504.04,3505.45,
+LCW-2,USA230,u s air two thirty traffic on a one mile final ah are you able to really seriously expedite traffic is now on a three quarter mile final,3505.78,3513.61,
+USA230,LCW-2,affirm sir,3513.78,3514.60,
+LCW-2,USA230,cross runway two two right u s air two thirty ground point niner after crossing,3514.71,3518.20,
+USA230,LCW-2,hurrying across u s two thirty,3519.09,3520.71,pilot used incomplete prefix
+LCW-2,USA230,u s air two thirty join the inner contact ground point nine thanks for the help,3529.63,3532.95,
+USA230,LCW-2,two thirty good day sir,3533.34,3534.51,pilot omitted ident prefix
+PCN3537,LCW-2,landing clearance for thirty five thirty seven,3544.16,3545.94,pilot omitted ident prefix
+LCW-2,PCN3537,thirty five thirty seven cleared to land runway two two right wind two niner zero at one niner,3546.01,3549.92,controller omitted ident prefix
+PCN3537,LCW-2,cleared to land thirty five thirty seven,3550.21,3551.52,pilot omitted ident prefix
+LCW-2,GAA499,bizex four ninety nine runway two two right taxi into position and hold,3551.53,3554.43,
+GAA499,LCW-2,four ninety nine position and hold,3554.57,3556.39,pilot omitted ident prefix
+LCW-2,SAB533,sabena five thirty three heavy traffic on the runway is at taxi speed cross runway two two right contact ground point niner after crossing traffic hold in position,3580.83,3588.26,
+SAB533,LCW-2,sabena five three three cross ah two two right and ground point nine after crossing,3589.02,3593.68,
+LCW-2,PCN3537,precision thirty five thirty seven contact ground point nine,3601.42,3604.29,
+PCN3537,LCW-2,thirty five thirty seven,3604.47,3605.66,pilot omitted ident prefix
+LCW-2,DAL726,delta seven twenty six boston tower cross runway two two right traffic holding in position contact ground point niner after crossing,3606.94,3612.76,
+DAL726,LCW-2,cross two two right delta seven twenty six,3613.37,3615.56,
+LCW-2,SAB533,sabena five thirty three heavy after crossing turn right and join the outer traffic to follow,3615.86,3620.10,
+SAB533,LCW-2,after crossing ah right outer sabena and follow the traffic,3620.59,3624.68,
