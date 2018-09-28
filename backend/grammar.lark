@@ -16,7 +16,9 @@ right : "RIGHT"
 centre : "CENTER" | "CENTRE"
 airline_designator : ("SINGAPORE" ) | ("JET"  "STAR" "ASIA" ) | ("GO" "CAT" ) | ("SILK" "AIR" ) | ("RED" "CAP" ) | ("SCOOTER" ) | ("INDONESIA" ) | (("WAGON" | "UNION") "AIR" ) | ("CATHAY" ) | ("MALAYSIAN" ) | ("EMIRATES" ) | ("THAI" "ASIA" ) | ("CEBU" ) | ("LION" ) | ("QANTAS" ) | ("CHINA" "EASTERN" ) | ("MALINDO" ) | ("SING" "CARGO" ) | ("CHINA" ) | ("FIREFLY" ) | ("DYNASTY" ) | ("ALL" "NIPPON" ) | ("QATARI" ) | ("JET" "AIRWAYS" ) | ("VIET" "NAM" )
 callsign : airline_designator digit? digit? digit? digit?
-wx_wind_phrase : ("SURFACE")? "WIND" ("LIGHT" "AND" "VARIABLE" | "CALM" | digit digit zero ("KNOTS")? ("AT")? digit digit? "DEGREES"?)
+//# here wx_wind_speed has been moved out of wx_wind_phrase
+wx_wind_speed : digit digit zero ("KNOTS")? ("AT")? digit digit? "DEGREES"?
+wx_wind_phrase : ("SURFACE")? "WIND" ("LIGHT" "AND" "VARIABLE" | "CALM" | wx_wind_speed)
 after_the_landing_ctl_phrase : ("AFTER" "THE" "LANDING") callsign
 runway_02l : ("RUNWAY")? zero two left
 runway_20r : ("RUNWAY")? two zero right
