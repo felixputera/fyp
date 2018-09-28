@@ -1,3 +1,4 @@
+# -*- coding: future_fstrings -*-
 import argparse
 import os
 import mmap
@@ -39,6 +40,10 @@ if __name__ == "__main__":
 
     args = argparser.parse_args()
 
+    # remove output file if currently exists
+    if os.path.exists(args.output):
+        os.remove(args.output)
+
     with open(args.grammar) as grammarfile:
         grammar = grammarfile.read()
     parser = Lark(
@@ -52,7 +57,7 @@ if __name__ == "__main__":
 
     print("Annotating sentences...")
     output_lines = []
-    for sentence in tqdm(sentences):
+    for sentence_i, sentence in enumerate(sentences):
         parsed_tree = parser.parse(sentence)
         ner_segments = deque()
         for inst in parsed_tree.iter_subtrees():
@@ -94,7 +99,10 @@ if __name__ == "__main__":
 
         output_lines.append('')
 
-    print("Writing output file...")
-    with open(args.output, 'w') as outputfile:
-        for line in tqdm(output_lines):
-            outputfile.write(line + "\n")
+        if (sentence_i + 1) % 1000 == 0:
+            print(f"Writing out {sentence_i + 1}/{len(sentences)} sentences")
+            with open(args.output, 'a') as outputfile:
+                for line in tqdm(output_lines):
+                    outputfile.write(line + "\n")
+
+            output_lines.clear()
