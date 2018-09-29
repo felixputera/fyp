@@ -10,7 +10,7 @@
 {
 
   "dataset_reader": {
-    "type": "conll2003",
+    "type": "atc_ner",
     "tag_label": "ner",
     "coding_scheme": "BIOUL",
     "token_indexers": {
@@ -26,8 +26,8 @@
      }
     }
   },
-  "train_data_path": "", # Set training data
-  "validation_data_path": "", # Set validation data
+  "train_data_path": std.extVar("NER_TRAIN_PATH"), # Set training data
+  "validation_data_path": std.extVar("NER_VAL_PATH"), # Set validation data
   "model": {
     "type": "crf_tagger",
     "constraint_type": "BIOUL",
@@ -95,6 +95,6 @@
     "num_epochs": 75,
     "grad_norm": 5.0,
     "patience": 25,
-    "cuda_device": 0
+    "cuda_device": -1
   }
 }
