@@ -1,4 +1,3 @@
-# -*- coding: future_fstrings -*-
 import argparse
 import os
 import mmap
@@ -67,7 +66,7 @@ if __name__ == "__main__":
 
         output_lines.extend(['-DOCSTART- O', ''])
 
-        sentence = sentence.capitalize()
+        sentence = sentence.lower()
         last_index = 0
         while last_index < len(sentence):
             if ner_segments:

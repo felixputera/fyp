@@ -31,6 +31,7 @@
   "model": {
     "type": "crf_tagger",
     "constraint_type": "BIOUL",
+    // TODO: adjust this hyperparameter
     "dropout": 0.5,
     "include_start_end_transitions": false,
     "text_field_embedder": {
@@ -68,6 +69,7 @@
       "input_size": 1202,
       "hidden_size": 200,
       "num_layers": 2,
+      // TODO: adjust this hyperparameter
       "dropout": 0.5,
       "bidirectional": true
     },
@@ -76,7 +78,8 @@
         "scalar_parameters",
         {
           "type": "l2",
-          "alpha": 0.1
+          // TODO: adjust this hyperparameter
+          "alpha": 0.3
         }
       ]
     ]
@@ -92,9 +95,9 @@
     },
     "validation_metric": "+f1-measure-overall",
     "num_serialized_models_to_keep": 3,
-    "num_epochs": 75,
+    "num_epochs": 5,
     "grad_norm": 5.0,
-    "patience": 25,
-    "cuda_device": -1
+    "patience": 1,
+    "cuda_device": 0
   }
 }

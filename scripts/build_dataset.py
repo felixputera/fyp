@@ -2,10 +2,14 @@ import argparse
 import itertools
 import os
 import random
+from copy import deepcopy
 
 from tqdm import tqdm
 
 DEV_SPLIT = TEST_SPLIT = 0.01
+AUGMENTATION_SAMPLES_SIZE = 0.5
+
+random.seed(230)
 
 argparser = argparse.ArgumentParser()
 argparser.add_argument(
@@ -33,11 +37,31 @@ def _is_divider(line):
 
 
 def print_sentences_to_file(sentences, output_file_path):
+    print(f"Writing {output_file_path}")
     with open(output_file_path, "w") as output_file:
         for sentence in sentences:
             output_file.write("-DOCSTART- O\n\n")
             output_file.writelines(sentence)
             output_file.write("\n")
+
+
+def augment_greetings(sentences):
+    with open("scripts/greetings.txt") as greetings_file:
+        greetings = greetings_file.readlines()
+
+    selected_sentences = deepcopy(
+        random.sample(sentences,
+                      int(AUGMENTATION_SAMPLES_SIZE * len(sentences))))
+
+    for i in range(len(selected_sentences)):
+        greeting = random.choice(greetings)
+        greeting_tokens = greeting.split()
+        annotated_greetings = []
+        for token in greeting_tokens:
+            annotated_greetings.append(f"{token} O\n")
+        selected_sentences[i] = annotated_greetings + selected_sentences[i]
+
+    sentences.extend(selected_sentences)
 
 
 if __name__ == "__main__":
@@ -49,9 +73,13 @@ if __name__ == "__main__":
     with open(input_path) as input_file:
         for is_divider, lines in itertools.groupby(input_file, _is_divider):
             if not is_divider:
-                sentences.append(list(lines))
+                lines = list(lines)
+                # Hack for previously capitalized sentences
+                lines[0] = lines[0][0].lower() + lines[0][1:]
+                sentences.append(lines)
 
-    random.seed(230)
+    augment_greetings(sentences)
+
     random.shuffle(sentences)
 
     dev_count = int(len(sentences) * DEV_SPLIT)
