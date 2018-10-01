@@ -24,6 +24,13 @@ argparser.add_argument(
     help="Output directory for split dataset",
     type=str,
     default="data/ner_dataset/")
+argparser.add_argument(
+    "--greetings",
+    help="File containing greetings",
+    type=str,
+    default="data/greetings_sample.txt")
+argparser.add_argument(
+    "--size", help="Dataset size", type=int, default=1000000)
 
 
 def _is_divider(line):
@@ -45,8 +52,8 @@ def print_sentences_to_file(sentences, output_file_path):
             output_file.write("\n")
 
 
-def augment_greetings(sentences):
-    with open("scripts/greetings.txt") as greetings_file:
+def augment_greetings(sentences, greetings_path):
+    with open(greetings_path) as greetings_file:
         greetings = greetings_file.readlines()
 
     selected_sentences = deepcopy(
@@ -78,9 +85,11 @@ if __name__ == "__main__":
                 lines[0] = lines[0][0].lower() + lines[0][1:]
                 sentences.append(lines)
 
-    augment_greetings(sentences)
+    augment_greetings(sentences, args.greetings)
 
     random.shuffle(sentences)
+
+    sentences = sentences[:args.size]
 
     dev_count = int(len(sentences) * DEV_SPLIT)
     test_count = int(len(sentences) * TEST_SPLIT)
