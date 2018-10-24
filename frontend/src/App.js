@@ -11,6 +11,7 @@ import ErrorIcon from "@material-ui/icons/Error";
 import styled from "styled-components";
 
 import HighlightedText from "./components/HighlightedText";
+import MarkupText from "./components/MarkupText";
 
 const styles = theme => ({
   main: {
@@ -57,6 +58,7 @@ const OutputGrid = styled.div`
 class App extends Component {
   state = {
     text: "",
+    transformedText: "",
     highlight: [],
     errorVisible: false
   };
@@ -66,8 +68,9 @@ class App extends Component {
   }
 
   _onWsMessage = e => {
-    const parsedData = JSON.parse(e.data);
-    this.setState({ highlight: parsedData });
+    // const parsedData = JSON.parse(e.data);
+    // this.setState({ highlight: parsedData });
+    this.setState({ transformedText: e.data });
   };
 
   _handleRetryWs = () => {
@@ -96,7 +99,7 @@ class App extends Component {
 
   render() {
     const { classes } = this.props;
-    const { text, highlight, errorVisible } = this.state;
+    const { text, highlight, errorVisible, transformedText } = this.state;
     return (
       <>
         <AppBar position="static" color="primary">
@@ -122,7 +125,8 @@ class App extends Component {
           <OutputGrid>
             <Typography variant="subheading">Output</Typography>
             <Paper className={classes.paper}>
-              <HighlightedText text={text} highlight={highlight} />
+              {/* <HighlightedText text={text} highlight={highlight} /> */}
+              <MarkupText text={transformedText} />
             </Paper>
           </OutputGrid>
         </GridContainer>

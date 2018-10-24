@@ -2,7 +2,8 @@ import json
 import logging
 from flask import Blueprint
 
-from server.segment_text import segment_flight_number, segment_text, segment_text_neural
+# from server.segment_text import segment_flight_number, segment_text, segment_text_neural
+from server.annotate import annotate
 
 logger = logging.getLogger(__name__)
 
@@ -14,4 +15,4 @@ def segment(socket):
     while not socket.closed:
         message = socket.receive()
         logger.debug(message)
-        socket.send(json.dumps(segment_text_neural(message)))
+        socket.send(annotate(message))

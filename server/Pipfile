@@ -12,6 +12,9 @@ gevent-websocket = "*"
 lark-parser = "*"
 spacy = "*"
 torch = "*"
+nltk = "*"
+tqdm = "*"
+yaspin = "*"
 
 [dev-packages]
 jupyter = "*"

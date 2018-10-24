@@ -58,7 +58,7 @@
             "type": "cnn",
             "embedding_dim": 16,
             "num_filters": 128,
-            "ngram_filter_sizes": [3],
+            "ngram_filter_sizes": [1],
             "conv_layer_activation": "relu"
             }
         }
