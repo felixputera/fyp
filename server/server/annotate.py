@@ -1,7 +1,7 @@
 import spacy
 
 from server.pipeline_components import AtcEntityTagger
-from server.utils import replace_words_with_numbers
+from server.utils.number import replace_words_with_digits
 
 nlp = spacy.load("en_core_web_sm")
 nlp.remove_pipe("ner")
@@ -15,7 +15,7 @@ def annotate(text=""):
     doc = nlp(text)
 
     markup = _create_entities_markup(doc)
-    markup = replace_words_with_numbers(markup)
+    markup = replace_words_with_digits(markup)
 
     return markup
 

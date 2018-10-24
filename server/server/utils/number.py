@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-with open("server/numbers.en.json") as numbers_file:
+with open("server/utils/numbers.en.json") as numbers_file:
     numbers_dict = json.loads(numbers_file.read())
 
 
@@ -121,7 +121,7 @@ def _cluster_tokens_to_spans(tokens):
     return spans
 
 
-def replace_words_with_numbers(text):
+def replace_words_with_digits(text):
     """
     Take a string `text` and return a new `text` with the numbers in words
     replaced with digits

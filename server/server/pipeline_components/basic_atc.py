@@ -17,7 +17,7 @@ def create_call_sign_patterns():
     return patterns
 
 
-class ATCPipeline(object):
+class BasicAtc(object):
     def __init__(self, nlp):
         call_sign_patterns = create_call_sign_patterns()
         Token.set_extension('call_sign', default=False)

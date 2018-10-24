@@ -1,3 +1,5 @@
+import os
+
 from allennlp.models.archival import load_archive
 from allennlp.predictors.predictor import Predictor
 from spacy.tokens import Token, Doc, Span
@@ -15,7 +17,7 @@ class AtcEntityTagger(object):
     name = "ATC Entity Tagger"
 
     def __init__(self, nlp):
-        archive = load_archive("models/ner_latest/model.tar.gz")
+        archive = load_archive(os.environ["NER_MODEL_ARCHIVE"])
         self.predictor = Predictor.from_archive(
             archive, predictor_name="atc-entity-tagger")
 
