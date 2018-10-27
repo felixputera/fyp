@@ -1,8 +1,11 @@
 # Felix's Online Text Highlighting FYP
-**_(UPDATE 2018-10-08) README is currently outdated_**
+
+## READMEs
+- [Server](server/README.md)
+- [Frontend](frontend/README.md)
 
 ## Requirement
-- Anaconda / conda (for backend & notebook)
+- pipenv (for backend)
 - npm / yarn (for frontend)
 
 ## Installation

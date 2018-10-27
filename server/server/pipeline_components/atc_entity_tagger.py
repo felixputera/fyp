@@ -1,12 +1,15 @@
-import os
-
 from allennlp.models.archival import load_archive
 from allennlp.predictors.predictor import Predictor
 from spacy.tokens import Token, Doc, Span
+import yaml
 
 import atc_model
 
 valid_tags = ["CALL", "RWY", "WS", "FREQ", "ACTION"]
+
+with open("config.yaml") as configfile:
+    config = yaml.load(configfile)
+    ner_model_archive = config["model_archive_path"]["ner"]
 
 
 class AtcEntityTagger(object):
@@ -17,7 +20,7 @@ class AtcEntityTagger(object):
     name = "ATC Entity Tagger"
 
     def __init__(self, nlp):
-        archive = load_archive(os.environ["NER_MODEL_ARCHIVE"])
+        archive = load_archive(ner_model_archive)
         self.predictor = Predictor.from_archive(
             archive, predictor_name="atc-entity-tagger")
 
