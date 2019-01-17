@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Text Highlighter",
+  "name": "Online ATC Text Highlighter",
   "icons": [
     {
       "src": "favicon.ico",

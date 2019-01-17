@@ -9,8 +9,6 @@ export default createMuiTheme({
     }
   },
   typography: {
-    body1: {
-      fontSize: 16
-    }
+    useNextVariants: true
   }
 });
