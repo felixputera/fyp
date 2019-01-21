@@ -30,7 +30,7 @@
   "validation_data_path": std.extVar("NER_VAL_PATH"), # Set validation data
   "model": {
     "type": "crf_tagger",
-    "constraint_type": "BIOUL",
+    "label_encoding": "BIOUL",
     // TODO: adjust this hyperparameter
     "dropout": 0.5,
     "include_start_end_transitions": false,
