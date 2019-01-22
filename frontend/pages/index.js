@@ -150,8 +150,8 @@ class App extends Component {
     this.transcription = new Transcription();
 
     this.dictate = new window.Dictate({
-      server: "ws://155.69.146.209:8888/client/ws/speech",
-      serverStatus: "ws://155.69.146.209:8888/client/ws/status",
+      server: process.env.ASR_BACKEND_URL,
+      serverStatus: process.env.ASR_BACKEND_STATUS_URL,
       recorderWorkerPath: "static/js/recorderWorker.js",
       onReadyForSpeech: () => {
         this.setState({ asrLoading: false, asrTranscribing: true });
@@ -205,7 +205,7 @@ class App extends Component {
   };
 
   _handleConnectWs = () => {
-    this.ws = new WebSocket("ws://localhost:5000/");
+    this.ws = new WebSocket(process.env.HIGHLIGHTER_BACKEND_URL);
 
     this.ws.onopen = () => console.log("connected to ws");
     this.ws.onclose = () => this.setState({ errorVisible: true });
