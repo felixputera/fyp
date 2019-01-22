@@ -23,6 +23,7 @@
     "dev": "next",
     "start": "next start",
     "build": "next build",
+    "export": "npm run build && next export",
     "test": "jest"
   },
   "devDependencies": {
