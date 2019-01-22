@@ -1,7 +1,7 @@
 # FYP Server
 
 ## Requirement
-- Python 3.6 (or [pyenv](https://github.com/pyenv/pyenv))
+- Python 3.6+ (or [pyenv](https://github.com/pyenv/pyenv))
 - [pipenv](https://pipenv.readthedocs.io/en/latest/)
 
 ## Usage
@@ -28,7 +28,7 @@ Currently, you make an API call to the server only via WebSocket. Simply establi
 Example in JavaScript:
 ```js
 // First, create a websocket connection
-const ws = new WebSocketz("ws://localhost:5000/");
+const ws = new WebSocket("ws://localhost:5000/");
 // Pass callback function to `onmessage` when receive message from server
 ws.onmessage = (e) => {
     console.log(e.data);
