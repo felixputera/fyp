@@ -16,6 +16,7 @@ nltk = "*"
 tqdm = "*"
 yaspin = "*"
 pyyaml = "*"
+gunicorn = "*"
 
 [dev-packages]
 jupyter = "*"
