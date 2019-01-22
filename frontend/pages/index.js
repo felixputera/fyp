@@ -13,8 +13,19 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import IconButton from "@material-ui/core/IconButton";
 import ClearRounded from "@material-ui/icons/ClearRounded";
 import RootRef from "@material-ui/core/RootRef";
+import FormControl from "@material-ui/core/FormControl";
+import InputLabel from "@material-ui/core/InputLabel";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
 
 import MarkupText from "../modules/components/MarkupText";
+
+const EXAMPLES = [
+  "singapore four runway two zero right continue approach",
+  "viet nam vacate whiskey five contact ground at one two one eight",
+  "cebu two zero two center wind seven nine zero three zero you are clear land",
+  "indonesia nine two zero center after the landing firefly six zero and clear to land"
+];
 
 // Styles definition
 
@@ -73,6 +84,7 @@ const Row = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  /* justify-content: center; */
   padding: 4px 0px;
 `;
 
@@ -124,13 +136,14 @@ class Transcription {
 class App extends Component {
   state = {
     text: "",
-    transformedText: "",
+    output: "",
     highlight: [],
     errorVisible: false,
     asrLogs: [],
     asrTranscribing: false,
     asrLoading: false,
-    asrInitialized: false
+    asrInitialized: false,
+    exampleValue: ""
   };
 
   componentDidMount() {
@@ -183,7 +196,7 @@ class App extends Component {
   _onWsMessage = e => {
     // const parsedData = JSON.parse(e.data);
     // this.setState({ highlight: parsedData });
-    this.setState({ transformedText: e.data });
+    this.setState({ output: e.data });
   };
 
   _handleRetryWs = () => {
@@ -254,16 +267,30 @@ class App extends Component {
     this.transcription.clear();
   };
 
+  _handleExampleChange = e => {
+    if (e.target.value === "") {
+      this.setState({
+        exampleValue: ""
+      });
+    } else {
+      this.setState({
+        text: EXAMPLES[e.target.value],
+        exampleValue: e.target.value
+      });
+    }
+  };
+
   render() {
     const { classes } = this.props;
     const {
       text,
       errorVisible,
-      transformedText,
+      output,
       asrLogs,
       asrTranscribing,
       asrLoading,
-      asrInitialized
+      asrInitialized,
+      exampleValue
     } = this.state;
     return (
       <>
@@ -276,7 +303,7 @@ class App extends Component {
         </AppBar>
         <GridContainer>
           <InputGrid>
-            <Typography variant="subtitle1">Input</Typography>
+            <Typography variant="h6">Input text</Typography>
             <Paper className={classes.paper}>
               <Input
                 multiline
@@ -295,13 +322,35 @@ class App extends Component {
             </Paper>
           </InputGrid>
           <OutputGrid>
-            <Typography variant="subtitle1">Output</Typography>
+            <Typography variant="h6">Results</Typography>
             <Paper className={classes.paper}>
-              <MarkupText text={transformedText} />
+              <MarkupText text={output} />
             </Paper>
           </OutputGrid>
 
           <ControlGrid>
+            <Row>
+              <FormControl fullWidth>
+                <InputLabel htmlFor="example-select">
+                  Select an example
+                </InputLabel>
+                <Select
+                  value={exampleValue}
+                  onChange={this._handleExampleChange}
+                  inputProps={{ id: "example-select" }}
+                  autoWidth
+                >
+                  <MenuItem value="">
+                    <em>None</em>
+                  </MenuItem>
+                  {EXAMPLES.map((example, idx) => (
+                    <MenuItem value={idx} key={idx}>
+                      {example}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Row>
             <Row>
               <Typography variant="subtitle1">
                 Highlighter server status:{" "}
