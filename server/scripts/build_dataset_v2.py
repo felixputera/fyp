@@ -126,6 +126,8 @@ if __name__ == "__main__":
     with open(grammar_path) as grammar_file:
         grammar_text = grammar_file.read()
 
-    annotated_sentences = _parse_and_annotate(sentences[:1], grammar_text)
+    annotated_sentences = _parse_and_annotate(sentences, grammar_text)
 
     print(annotated_sentences[0])
+
+    # TODO: not done yet, write out sentences to files
