@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c6691e3514840fb5fd8c86a7a54a02db8a957932cf9c00a04218d141d1a8d810"
+            "sha256": "5216eff163059419ed012480fc8fccbc88432bd55477b9335cb97102291abd35"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -240,9 +240,9 @@
         },
         "dill": {
             "hashes": [
-                "sha256:624dc244b94371bb2d6e7f40084228a2edfff02373fe20e018bef1ee92fdd5b3"
+                "sha256:f6d6046f9f9195206063dd0415dff185ad593d6ee8b0e67f12597c0f4df4986f"
             ],
-            "version": "==0.2.8.2"
+            "version": "==0.2.9"
         },
         "docker": {
             "hashes": [
@@ -535,10 +535,10 @@
         },
         "lark-parser": {
             "hashes": [
-                "sha256:43d623edae6f16db038d29f8586406002f2bea63c0363dc9acbedac27de7040e"
+                "sha256:16ff3be1fb5d215c56ec378714b126f4ec6214741aeb92b22c7ac0f8165be35e"
             ],
             "index": "pypi",
-            "version": "==0.6.6"
+            "version": "==0.6.4"
         },
         "markupsafe": {
             "hashes": [
