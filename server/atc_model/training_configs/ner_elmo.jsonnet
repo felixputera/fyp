@@ -24,7 +24,8 @@
       "elmo": {
         "type": "elmo_characters"
      }
-    }
+    },
+    "lazy": true
   },
   "train_data_path": std.extVar("NER_TRAIN_PATH"), # Set training data
   "validation_data_path": std.extVar("NER_VAL_PATH"), # Set validation data
