@@ -1,6 +1,8 @@
-# Dont commit datasets and trained models
+# Dont commit config, datasets and trained models
+config.yaml
 data/
 models/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
