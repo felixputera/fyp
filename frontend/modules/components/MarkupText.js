@@ -1,8 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import Tooltip from "@material-ui/core/Tooltip";
-import styled from "styled-components";
-import randomColor from "randomcolor";
+import HighlightMark from "./HighlightMark";
 
 const OPENING_TAG_RE = /<([a-zA-Z]+)>/;
 const CLOSING_TAG_RE = /<\/([a-zA-Z]+)>/;
@@ -34,39 +32,21 @@ const markupToSegments = markupText => {
   return segments;
 };
 
-const colorMemo = {};
-const colorOfType = type => {
-  if (colorMemo[type]) {
-    return colorMemo[type];
-  } else {
-    colorMemo[type] = randomColor({ luminosity: "light" });
-    return colorMemo[type];
-  }
-};
-
-const Highlight = styled.span`
-  padding: 4px 2px;
-  border-width: 0;
-  border-radius: 4px;
-  background-color: ${props => colorOfType(props.type)};
-`;
-
 const MarkupText = ({ text }) => {
   const renderSegments = [];
   markupToSegments(text).forEach((segment, idx) => {
     if (segment.hasOwnProperty("tag")) {
       renderSegments.push(
-        <Tooltip title={segment.tag} key={idx}>
-          <Highlight type={segment.tag}>{segment.tokens.join(" ")}</Highlight>
-        </Tooltip>
+        <HighlightMark type={segment.tag} key={idx}>
+          {segment.tokens.join(" ")}
+        </HighlightMark>
       );
     } else {
       renderSegments.push(segment.tokens.join(" "));
     }
     renderSegments.push(" ");
   });
-
-  return <Typography>{renderSegments}</Typography>;
+  return <Typography variant="body1">{renderSegments}</Typography>;
 };
 
 export default MarkupText;
