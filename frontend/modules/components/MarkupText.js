@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
 import HighlightMark from "./HighlightMark";
 
@@ -32,6 +33,12 @@ const markupToSegments = markupText => {
   return segments;
 };
 
+const MarkupTypography = styled(Typography).attrs({
+  variant: "body1"
+})`
+  line-height: 2.5;
+`;
+
 const MarkupText = ({ text }) => {
   const renderSegments = [];
   markupToSegments(text).forEach((segment, idx) => {
@@ -46,7 +53,7 @@ const MarkupText = ({ text }) => {
     }
     renderSegments.push(" ");
   });
-  return <Typography variant="body1">{renderSegments}</Typography>;
+  return <MarkupTypography>{renderSegments}</MarkupTypography>;
 };
 
 export default MarkupText;
