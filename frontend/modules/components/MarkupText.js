@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
-import HighlightMark from "./HighlightMark";
+import { HighlightMarkUnderline as HighlightMark } from "./HighlightMark";
 
 const OPENING_TAG_RE = /<([a-zA-Z]+)>/;
 const CLOSING_TAG_RE = /<\/([a-zA-Z]+)>/;
