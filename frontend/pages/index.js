@@ -133,6 +133,16 @@ class Transcription {
   };
 }
 
+const debounce = (func, delay) => {
+  let inDebounce;
+  return function() {
+    const context = this;
+    const args = arguments;
+    clearTimeout(inDebounce);
+    inDebounce = setTimeout(() => func.apply(context, args), delay);
+  };
+};
+
 class App extends Component {
   state = {
     text: "",
@@ -145,6 +155,11 @@ class App extends Component {
     asrInitialized: false,
     exampleValue: ""
   };
+
+  constructor(props) {
+    super(props);
+    this._sendWsMessage = debounce(this._sendWsMessage, 250);
+  }
 
   componentDidMount() {
     this.transcription = new Transcription();
@@ -250,10 +265,14 @@ class App extends Component {
 
   shouldComponentUpdate(_, nextState) {
     if (nextState.text !== this.state.text) {
-      this.ws.send(nextState.text);
+      this._sendWsMessage(nextState.text);
     }
     return true;
   }
+
+  _sendWsMessage = message => {
+    this.ws.send(message);
+  };
 
   _clearAsrLogs = () => {
     this.setState({
