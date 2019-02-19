@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { withStyles } from "@material-ui/core/styles";
 import { format } from "date-fns";
 
+import { Flex, Box } from "@rebass/grid";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
@@ -17,6 +18,7 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
+import TextField from "@material-ui/core/TextField";
 
 import MarkupText from "../modules/components/MarkupText";
 
@@ -50,42 +52,8 @@ const styles = theme => ({
   }
 });
 
-const GridContainer = styled.div`
-  padding: 24px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 240px 1fr;
-  grid-template-areas:
-    "input output"
-    "control control";
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-`;
-
-const InputGrid = styled.div`
-  grid-area: input;
-  display: flex;
-  flex-direction: column;
-`;
-
-const OutputGrid = styled.div`
-  grid-area: output;
-  display: flex;
-  flex-direction: column;
-`;
-
-const ControlGrid = styled.div`
-  grid-area: control;
-  display: flex;
-  flex-direction: column;
-`;
-
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* justify-content: center; */
-  padding: 4px 0px;
+const PaperFlex = styled(Flex)`
+  height: 240px;
 `;
 
 const LogPaper = styled(Paper)`
@@ -144,29 +112,28 @@ const debounce = (func, delay) => {
 };
 
 class App extends Component {
-  state = {
-    text: "",
-    output: "",
-    highlight: [],
-    errorVisible: false,
-    asrLogs: [],
-    asrTranscribing: false,
-    asrLoading: false,
-    asrInitialized: false,
-    exampleValue: ""
-  };
-
   constructor(props) {
     super(props);
     this._sendWsMessage = debounce(this._sendWsMessage, 250);
+    this.state = {
+      text: "",
+      output: "",
+      highlight: [],
+      errorVisible: false,
+      asrLogs: [],
+      asrTranscribing: false,
+      asrLoading: false,
+      asrInitialized: false,
+      exampleValue: "",
+      asrUrl: process.env.ASR_BACKEND_URL,
+      asrStatusUrl: process.env.ASR_BACKEND_STATUS_URL
+    };
   }
 
-  componentDidMount() {
-    this.transcription = new Transcription();
-
+  _newDictate = () => {
     this.dictate = new window.Dictate({
-      server: process.env.ASR_BACKEND_URL,
-      serverStatus: process.env.ASR_BACKEND_STATUS_URL,
+      server: this.state.asrUrl,
+      serverStatus: this.state.asrStatusUrl,
       recorderWorkerPath: "static/js/recorderWorker.js",
       onReadyForSpeech: () => {
         this.setState({ asrLoading: false, asrTranscribing: true });
@@ -197,7 +164,11 @@ class App extends Component {
         this._addAsrLog(data);
       }
     });
+  };
 
+  componentDidMount() {
+    this.transcription = new Transcription();
+    this._newDictate();
     this._handleConnectWs();
 
     (() => {
@@ -281,6 +252,7 @@ class App extends Component {
   };
 
   _initializeAsr = () => {
+    this._newDictate();
     this.setState({ asrInitialized: true });
     this.dictate.init();
     this.transcription.clear();
@@ -320,35 +292,37 @@ class App extends Component {
             </Typography>
           </Toolbar>
         </AppBar>
-        <GridContainer>
-          <InputGrid>
-            <Typography variant="h6">Input text</Typography>
-            <Paper className={classes.paper}>
-              <Input
-                multiline
-                fullWidth
-                placeholder="Type here..."
-                onChange={this._handleTextAreaChange}
-                value={text}
-                endAdornment={
-                  <InputAdornment position="end">
-                    <IconButton onClick={this._clearInput}>
-                      <ClearRounded />
-                    </IconButton>
-                  </InputAdornment>
-                }
-              />
-            </Paper>
-          </InputGrid>
-          <OutputGrid>
-            <Typography variant="h6">Results</Typography>
-            <Paper className={classes.paper}>
-              <MarkupText text={output} />
-            </Paper>
-          </OutputGrid>
+        <Box p={3}>
+          <Flex flexWrap="wrap" mb={2}>
+            <PaperFlex flexDirection="column" width={[1, 1 / 2]} pr={[0, 2]}>
+              <Typography variant="h6">Input text</Typography>
+              <Paper className={classes.paper}>
+                <Input
+                  multiline
+                  fullWidth
+                  placeholder="Type here..."
+                  onChange={this._handleTextAreaChange}
+                  value={text}
+                  endAdornment={
+                    <InputAdornment position="end">
+                      <IconButton onClick={this._clearInput}>
+                        <ClearRounded />
+                      </IconButton>
+                    </InputAdornment>
+                  }
+                />
+              </Paper>
+            </PaperFlex>
+            <PaperFlex flexDirection="column" width={[1, 1 / 2]} pl={[0, 2]}>
+              <Typography variant="h6">Results</Typography>
+              <Paper className={classes.paper}>
+                <MarkupText text={output} />
+              </Paper>
+            </PaperFlex>
+          </Flex>
 
-          <ControlGrid>
-            <Row>
+          <Flex flexDirection="column">
+            <Flex alignItems="center" py={1}>
               <FormControl fullWidth>
                 <InputLabel htmlFor="example-select">
                   Select an example
@@ -369,8 +343,8 @@ class App extends Component {
                   ))}
                 </Select>
               </FormControl>
-            </Row>
-            <Row>
+            </Flex>
+            <Flex alignItems="center" py={1}>
               <Typography variant="subtitle1">
                 Highlighter server status:{" "}
                 <strong>{errorVisible ? "Disconnected" : "Connected"}</strong>
@@ -380,11 +354,31 @@ class App extends Component {
                   Retry
                 </Button>
               )}
-            </Row>
-            <Row>
+            </Flex>
+            <Flex alignItems="center" flexWrap="wrap" py={1}>
+              <Box width={[1, 1 / 2]} pr={[0, 2]}>
+                <TextField
+                  label="ASR Server URL"
+                  value={this.state.asrUrl}
+                  onChange={e => this.setState({ asrUrl: e.target.value })}
+                  fullWidth
+                />
+              </Box>
+              <Box width={[1, 1 / 2]} pl={[0, 2]}>
+                <TextField
+                  label="ASR Server Status URL"
+                  value={this.state.asrStatusUrl}
+                  onChange={e =>
+                    this.setState({ asrStatusUrl: e.target.value })
+                  }
+                  fullWidth
+                />
+              </Box>
+            </Flex>
+            <Flex alignItems="center" py={1}>
               <Typography variant="subtitle1">ASR Log</Typography>
-            </Row>
-            <Row>
+            </Flex>
+            <Flex alignItems="center" py={1}>
               <RootRef rootRef={this.logRef}>
                 <LogPaper elevation={0}>
                   <Typography
@@ -400,8 +394,8 @@ class App extends Component {
                   </Typography>
                 </LogPaper>
               </RootRef>
-            </Row>
-            <Row>
+            </Flex>
+            <Flex alignItems="center" py={1}>
               <ControlButton
                 variant="contained"
                 color="secondary"
@@ -424,9 +418,9 @@ class App extends Component {
               >
                 Clear Log
               </ControlButton>
-            </Row>
-          </ControlGrid>
-        </GridContainer>
+            </Flex>
+          </Flex>
+        </Box>
       </>
     );
   }
